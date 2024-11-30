@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Livvic;
+}
+.header{
+    max-width: 1440px;
+    height: 517px;
+    margin: 0 auto;
+    background: #014E56;
+
+}
+.tt{
+    max-width: 1110px;
+    height: 156px;
+}
+.nav{
+    max-width: 1440px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.burger{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rei{
+    max-width: 1440px;
+    height: 36.62px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+.yy{
+    display: flex;
+}
+.foter{
+    max-width: 1440px;
+    height: 1002px;
+    margin: 0 auto;
+    background: #004047;
+}
+.lol{
+    max-width: 1110px;
+    height: 784px;
+    margin: 0 auto;
+    position: relative;
+    top: 400px;
+    gap: 60px;
+    display: flex;
+    
+}
+#abubebu{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: azure;
+}
+.card{
+    width: 350px;
+    height: 274.73px;
+    background: #012F34;
+}
+.card1{
+    width: 350px;
+    height: 274.73px;
+    background: #012F34;
+}
+.noob{
+    max-width: 917px;
+    height: 48px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ez{
+    max-width: 1440px;
+    height: 200px;
+    margin: 0 auto;
+    background: #F67E7E;
+
+}
+.bth:hover{
+    background-color: #004047;
+}
+.card img{
+    position: relative;
+    left: 111px;
+    top: 30px;
+}
+.card1 img{
+    position: relative;
+    left: 111px;
+    top:30px;
+}
+.card:hover{
+    background-color: #40becc;
+}
+.card1:hover{
+    background-color: #40becc;
+}
+.nav2{
+    max-width: 1440px;
+    height: 196px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #002529;
+}
+.tt{
+    max-width: 1110px;
+    height: 156px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.er{
+    text-align: center;
+    color: azure;
+}
+.rdr{
+    max-width: 1440px;
+    height: 355.66px;
+    margin: 0 auto;
+    background-color: #012F34;
+}
+.rw{
+    gap: 40px;
+}
+.r{
+    
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    left: -20px;
+    text-align: center;
+    
+    
+}
+
+.e{
+    padding-right: 199px;
+}
+.bth{
+    width: 153px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+}
+@media (max-width:993px) {
+    
+    .tt{
+        width: 683px;
+        height: 220px;
+        flex-direction: column;
+    }
+    .nav{
+        width: 993px;
+        height: 84px;
+    }
+    .card{
+
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    }
+    .noob h1{
+        position: relative;
+        right: 500px;
+    }
+    .noob button{
+        position: relative;
+        right: 600px;
+    }
+    .ez{
+        width: 993px;
+        height: 200px;
+    }
+    .card1{
+
+        position: relative;
+        top: 200px;
+        right: 480px;
+
+    }
+    
+    .lol{
+        width: 1440px;
+        height: 1219px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .nav{
+        width: 327px;
+        height: 32px;
+    }
+
+    .header{
+        width: 560px;
+        height: 520px;
+
+    }
+    .ez{
+        width: 375px;
+        height: 302px;
+    }
+    .noob{
+        width: 327px;
+        height: 136px;
+    }
+    .tt{
+        width: 327px;
+        height: 252px;
+    }
+    .tt img{
+        width: 327px;
+        margin: 0 auto;
+    }
+    .tt h3{
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .rdr{
+        width: 375px;
+        height: 917.68px;
+    }
+    .nav2{
+        width: 375px;
+        height: 432px;
+        flex-direction: column;
+    }
+    .rei{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .yy{
+        position: relative;
+        right: 100px;
+        top: -30px;
+        gap: 60px;
+    }
+    .nav ul{
+        display: none;
+    }
+    .bth{
+        display: none;
+    }
+    .burger{
+        display: initial;
+    }
+    .foter{
+        width: 375px;
+        height: 1689px;
+        flex-direction: column;
+    }
+    .lol{
+        position: relative;
+        right: 460px;
+        flex-direction: column;
+    }
+
+    }
+
